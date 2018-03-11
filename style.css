@@ -1,7 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-ul {
+.menu ul {
     display: flex;
+    font-family: "Open Sans";
+    font-size: 16px;
+    position: relative;
+    top: -20px;
 }
-li {
-    padding: 30px;
+.menu li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+.menu li:hover {
+    color: #c00;
+}
+
+header {
+    display: flex;
+    margin-top: 0px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.logo {
+    height: 70px;
+    position: relative;
+    top: -17px;
+}
+
+.everytime-near {
+    background-color: #e7e6e8;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Open Sans";
+    position: relative;
+}
+
+.everytime-near .text p {
+    width: 500px;
+    position: absolute;
+    left: 80px;
+    top: 250px;
+    z-index: 1;
+}
+
+.everytime-near .text h1 {
+    width: 200px;
+    font-size: 80px;
+    line-height: 85px;
+    position: absolute;
+    left: 80px;
+    z-index: 1;
+}
+
+.video {
+    position: absolute;
+    top: -200px;
+    right: -2px;
+    z-index: 0;
+}
+
+.Intro__video {
+    width: 1140px;
+}
+
+
+
+.math-accuracy {
+    background-color: #dedede;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    font-family: "Open Sans";
+    position: relative;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.math-accuracy img {
+    max-width: 327px;
+}
+
+.math-accuracy p {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Open Sans";
+    background-color: #dedede;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.math-accuracy .block-1 {
+    max-width: 327px;
+    padding-left: 70px;
+    
+}
+
+.math-accuracy .block-2 {
+    max-width: 327px;
+}
+
+.math-accuracy .block-3 {
+    max-width: 327px;
+    padding-right: 70px;
+}
+
+.math-accuracy .block-3 p {
+    text-align: center;
 }
