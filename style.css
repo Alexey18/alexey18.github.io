@@ -122,3 +122,55 @@ header {
 .math-accuracy .block-3 p {
     text-align: center;
 }
+
+footer {
+    font-family: "Open Sans";
+    background-color: #f3f1ed;
+    color: #999999;
+    position: relative;
+}
+
+footer h3 {
+    margin: 0px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.agreement {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    border-top: 1px solid rgb(206, 206, 206);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.agreement a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: grey;
+}
+.agreement a:visited {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.agreement a:hover {
+    color: #c00;
+}
+
+.icons img {
+    width: 30px;
+}
+
+.icons {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+
+.icons img:hover {
+    width: 31px;
+}
