@@ -1,99 +1,20 @@
-<!DOCTYPE>
-<html>
-
-    <head>
-        <title>Скачайте приложение Яндекс.Такси</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="favicon.png" type="image/png">
-    </head>
-
-    <body>
-
-        <header>
-
-            <img class="logo" src="logo_1.png">
-            <img class="logo" src="logo_2.png">
-
-            <div class="menu">
-                <ul>
-                    <li>Тарифы</li>
-                    <li>Мобильное приложение</li>
-                    <li>Служба поддержки</li>
-                    <li>Работа с нами</li>
-                </ul>
-            </div>
-            
-        </header>
-
-        <div class="everytime-near">
-            <div class="text">
-                <h1>Всегда рядом</h1>
-                <p>
-                    Приложение Яндекс.Такси поможет вам добраться до места быстро и недорого: прямо сейчас, днём и ночью, для всей семьи, картой и наличными. Вызывайте как нравится!
-                </p>
-            </div>
-            <div class="video">
-                    <video class="Intro__video" autoplay poster="https://yastatic.net/lego/_/La6qi18Z8LwgnZdsAr1qy1GwCwo.gif" style="background-image:url('https://avatars.mds.yandex.net/get-bunker/61205/68f7ef6b949afb5eb94c55dcd8b5ea826de7fee0/orig')" playsinline="" muted="" loop="" pip="false"><source src="https://download.cdn.yandex.net/taxi/taxi-frontend/app/CITI.mp4" type="video/mp4"><source src="https://download.cdn.yandex.net/taxi/taxi-frontend/app/CITI.webm" type="video/webm"></video>
-            </div>
-        </div>
-
-        <h2 class="title-2">Математическая точность</h2>
-        <div class="math-accuracy">
-            <div class="block-1">
-                <img src="block_1.png">
-                <p>
-                    Знает ваш город и строит оптимальные маршруты
-                </p>
-            </div>
-            <div class="block-2">
-                    <img src="block_2.png">
-                    <p>
-                        Находит машину, которая приедет к вам быстрее всего
-                    </p>
-            </div>
-            <div class="block-3">
-                    <img src="block_3.png">
-                    <p>
-                        Показывает ближайшую точку, откуда поездка будет дешевле
-                    </p>
-            </div>
-        </div>
-
-        <div class="footer">
-            <h3>Присоединяйтесь в соцсетях:</h3>
-            <div class="icons">
-                <a href="https://facebook.com/yandex.taxi"><img src="facebook.jpg"></a>
-                <a href="https://instagram.com/yandex.taxi/"><img src="instagram.jpg"></a>
-                <a href="https://vk.com/yandex.taxi"><img src="vk.jpg"></a>
-            </div>
-            <div class="agreement">
-                <div class="text">Пользовательское соглашение</div>
-                <div class="Copyright">© 
-                    <span class="dates">2009–<!-- -->2018</span>  
-                    <span>ООО «<a href="/" class="Copyright__link">Яндекс.Такси»</a></span>
-                </div>
-            </div>
-        </div>
-
-        <div class="get-app">
-            <div class="block-1">
-                Скачайте приложение из App Store и Google Play
-            </div>
-
-            <div class="block-2">
-                Введите номер и получите ссылку на телефон.
-            </div>
-
-            <div class="form">
-                <div class="area">
-                    <input type="text" placeholder="+7 XXX XXX-XX-XX">
-                </div>
-                <div class="button">
-                    
-                </div>
-            </div>
-        </div>
-
-    </body>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+      <meta name="google-signin-client_id" content="927871886020-qv6m00j3s75t63np9q143b4kigoi24bq.apps.googleusercontent.com">
+  </head>
+  <body>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+      <script>
+        function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+      </script>
+    -->
+  </body>
 </html>
